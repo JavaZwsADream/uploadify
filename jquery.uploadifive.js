@@ -97,7 +97,7 @@ Released under the MIT License
                     } else if (settings.fileSizeLimit.indexOf('GB') > -1) {
                         settings.fileSizeLimit = fileSizeLimitBytes * 1000000000;
                     }
-                } else {
+                } else {的
                     settings.fileSizeLimit = settings.fileSizeLimit * 1024;
                 }
 
